@@ -1,9 +1,10 @@
 import subprocess
 import pyttsx3
 import speech_recognition as sr
+
 # This project uses the external package flite for text to speech
 def speak(ctx):
-    subprocess.Popen(["/usr/bin/flite", "--setf", "duration_stretch=1.2", "-voice", "slt", ctx])
+    subprocess.Popen(["/usr/bin/flite", "-voice", "slt", ctx])
 
 
 engine = pyttsx3.init()
@@ -26,11 +27,11 @@ def takeCommand():
 
     try:
         print("Recognizing...")    
-        query = r.recognize_tensorflow(audio, duration=10, language='en-in')
+        query = r.recognize_google(audio, language='en-in')
         print(f"User said: {query}\n")
 
     except Exception as e:
-        print(e)    
+        # print(e)    
         print("Unable to Recognize your voice.")  
         return "None"
     
