@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "project-ash"
+version = "0.1.1"
+description = "A personal assistant project"
+authors = ["Arghya Sarkar <arghyasarkar.nolan@gmail.com>", "Ankush Roy <>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyttsx3 = "^2.98"
+pyaudio = "^0.2.14"
+speechrecognition = "^3.11.0"
+botocore = "^1.35.47"
+
+[tool.poetry.scripts]
+ash = "project_ash.app:start"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
