@@ -1,0 +1,20 @@
+{
+    "config": {
+        "name": "ASSISTANT NAME",
+        "user_name": "USERNAME",
+        "speech": {
+            "engine": "flite/espeak/festival",
+            "voice": "desired voice file according to engine"
+        },
+        "keys": {
+            "GOOGLE_AI_API_KEY": "",
+            "SPOTIFY_CLIENT_ID": "",
+            "SPOTIFY_CLIENT_SECRET": "",
+            "SPOTIFY_REDIRECT": "",
+            "SPOTIFY_USERNAME": ""
+        },
+        "modules": {
+            "music": false
+        }
+    }
+}

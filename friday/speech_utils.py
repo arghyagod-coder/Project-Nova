@@ -1,10 +1,13 @@
 import subprocess
 import pyttsx3
 import speech_recognition as sr
+from .load_config import load_config
+
+config = load_config()
 
 # This project uses the external package flite for text to speech
 def speak(ctx):
-    subprocess.Popen(["/usr/bin/flite", "-voice", "slt", ctx])
+    subprocess.Popen([config["speech"]["engine"], "-voice", config["speech"]["voice"], ctx])
 
 
 engine = pyttsx3.init()
