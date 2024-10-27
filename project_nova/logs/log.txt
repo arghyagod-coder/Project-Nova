@@ -1,0 +1,127 @@
+2024-10-27 20:49:53.703631
+Nova: NOVA Online
+
+2024-10-27 20:51:03.947462
+Nova: NOVA Online
+
+2024-10-27 20:51:43.695550
+Nova: NOVA Online
+
+2024-10-27 20:53:53.243158
+Nova: NOVA Online
+
+2024-10-27 20:54:13.195054
+User: hello Nova
+
+2024-10-27 20:55:57.358106
+Nova: NOVA Online
+
+2024-10-27 20:56:10.444689
+User: hello Nova
+
+2024-10-27 20:56:12.540447
+Gemini: Hello! How can I help you today? 
+
+
+2024-10-27 20:56:12.540848
+Nova: Hello! How can I help you today? 
+
+
+2024-10-27 20:58:36.776634
+User: Pakhandi Sirf Tum Dekho
+
+2024-10-27 22:32:42.439236
+Nova: NOVA Online
+
+2024-10-27 22:32:47.959497
+User: hello now
+
+2024-10-27 22:33:03.316070
+User: hello
+
+2024-10-27 22:33:29.223711
+User: hello
+
+2024-10-27 22:34:04.401825
+User: Nov
+
+2024-10-27 22:34:17.147587
+User: Nova how are you
+
+2024-10-27 22:34:19.093385
+Gemini: I am at your service, Sir.  Ready to assist with any tasks you may have.
+
+
+2024-10-27 22:34:19.093824
+Nova: I am at your service, Sir.  Ready to assist with any tasks you may have.
+
+
+2024-10-27 22:34:34.874553
+User: good not good now help me to set up a new
+
+2024-10-27 22:37:01.192869
+User: Nova volume down
+
+2024-10-27 22:37:01.808620
+Gemini: Alright sir, adjusting the volume.  &&amixer set Master 5%- && 
+
+
+2024-10-27 22:37:01.809055
+Nova: Alright sir, adjusting the volume.  &&amixer set Master 5%- && 
+
+
+
+2024-10-27 23:03:58.223928
+Nova: NOVA Online
+
+2024-10-27 23:04:29.849615
+Nova: NOVA Online
+
+2024-10-27 23:16:43.442443
+Nova: NOVA Online
+
+2024-10-27 23:17:41.935498
+Nova: NOVA Online
+
+2024-10-27 23:18:57.364859
+Nova: NOVA Online
+
+2024-10-27 23:20:35.473975
+Nova: NOVA Online
+
+2024-10-27 23:21:06.411866
+Nova: NOVA Online
+
+2024-10-27 23:21:38.563722
+Nova: NOVA Online
+
+2024-10-27 23:21:42.923600
+Gemini: At your service, Sir. What can I do for you today? 
+
+
+2024-10-27 23:21:42.924021
+Nova: At your service, Sir. What can I do for you today? 
+
+
+2024-10-27 23:22:02.523774
+Gemini: Sure sir, opening Microsoft Edge and navigating to Whatsapp Web.
+
+&&microsoft-edge --new-tab https://web.whatsapp.com/&& 
+
+
+2024-10-27 23:22:02.524258
+Nova: Sure sir, opening Microsoft Edge and navigating to Whatsapp Web.
+
+&&microsoft-edge --new-tab https://web.whatsapp.com/&& 
+
+
+2024-10-27 23:25:29.782470
+Gemini: Sure sir, I can do that. Which wallpaper would you like to set? Please give me the path to the image file. 
+
+&&gsettings set org.gnome.desktop.background picture-uri "path/to/image"&& 
+
+
+2024-10-27 23:25:29.782911
+Nova: Sure sir, I can do that. Which wallpaper would you like to set? Please give me the path to the image file. 
+
+&&gsettings set org.gnome.desktop.background picture-uri "path/to/image"&& 
