@@ -6,11 +6,11 @@
 
 ### TODOs
 
-[ ] Do something with all the spotify I cooked
-[-] Check out if gTTS works better than flite
-[ ] Finetune Gemini through AI Studio (Personal)
-[ ] Start a Documentation (mkdocs??) for the Configuration
-[ ] Make Friday do it's own Pushing (I am too lazy)
+- [ ] Do something with all the spotify I cooked
+- [ ] Check out if gTTS works better than flite
+- [ ] Finetune Gemini through AI Studio (Personal)
+- [ ] Start a Documentation (mkdocs??) for the Configuration
+- [ ] Make Friday do it's own Pushing (I am too lazy)
 
 ### Setting Up for Dev
 
