@@ -1,6 +1,7 @@
 {
     "config": {
         "name": "ASSISTANT NAME",
+        "lang": "LANGUAGE (en/hi/es etc.)",
         "user_name": "USERNAME",
         "speech": {
             "engine": "flite/espeak/festival",
