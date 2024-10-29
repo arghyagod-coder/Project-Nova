@@ -1,0 +1,46 @@
+site_name: FRIDAY A Personal Assistant Project
+repo_url: https://github.com/thearghyasarkar/project-nova
+repo_name: arghyagod-coder/Project-Nova
+site_description: FRIDAY is a personal assistant which is designed to bring some funk to your life. It is a voice controlled system which can understand and perform various tasks given by the user. The system can be controlled using voice commands and can perform tasks like playing music for now. The project will expand with time to add more and more modules.
+site_author: "Arghya Sarkar"
+copyright: "Copyright © thearghyasarkar.xyz"
+
+
+nav:
+    - The Project Description:
+      - 'index.md'
+
+remote_name: origin
+
+extra:
+  homepage: https://github.com/thearghyasarkar/project-nova
+  generator: false
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
+
+theme:
+  name: material
+  features:
+    - search.suggest
+    - search.highlight
+  language: en
+  logo: https://thumbs.dreamstime.com/b/print-271111800.jpg
+  palette:
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate 
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# theme: readthedocs
+
+markdown_extensions:
+  - admonition
